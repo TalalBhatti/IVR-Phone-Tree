@@ -5,10 +5,13 @@ const swaggerJsdoc = require('swagger-jsdoc');
 const swaggerUi = require('swagger-ui-express');
 const callRoutes = require('./routes/callRoutes');
 const logger = require('./utils/logger');
+require('dotenv').config();
 
+// env.config({path:'./'})
 const app = express();
 
 // Connect to MongoDB
+console.log("Url",process.env.MONGODB_URI)
 mongoose.connect(process.env.MONGODB_URI, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
@@ -57,7 +60,7 @@ app.use((err, req, res, next) => {
 });
 
 // Start the server
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 8000;
 app.listen(port, () => {
   logger.info(`Server listening on port ${port}`);
 });

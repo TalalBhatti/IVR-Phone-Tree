@@ -9,7 +9,7 @@ const myLevels = {
     debug: 3,
   },
   colors: {
-    error: 'red',
+    error: 'white',
     warn: 'yellow',
     info: 'green',
     debug: 'blue',
@@ -27,7 +27,7 @@ const logger = winston.createLogger({
       (info) => `${info.timestamp} ${info.level}: ${info.message}`
     )
   ),
-  transports: [new winston.transports.Console()],
+  transports: [new winston.transports.Console(),new winston.transports.File({ filename: 'logfile.log' })],
 });
 
 module.exports = logger;

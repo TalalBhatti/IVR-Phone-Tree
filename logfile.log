@@ -1,0 +1,91 @@
+2023-02-25T21:35:51.544Z [32minfo[39m: [32mServer listening on port 3000[39m
+2023-02-25T21:35:53.166Z [32minfo[39m: [32mConnected to MongoDB[39m
+2023-02-25T21:41:38.116Z [32minfo[39m: [32mServer listening on port 3000[39m
+2023-02-25T21:41:39.542Z [32minfo[39m: [32mConnected to MongoDB[39m
+2023-02-25T21:42:05.063Z [32minfo[39m: [32mServer listening on port 3000[39m
+2023-02-25T21:42:06.008Z [32minfo[39m: [32mConnected to MongoDB[39m
+2023-02-25T21:42:22.548Z [32minfo[39m: [32mServer listening on port 3000[39m
+2023-02-25T21:42:28.374Z [32minfo[39m: [32mServer listening on port 3000[39m
+2023-02-25T21:42:29.282Z [32minfo[39m: [32mConnected to MongoDB[39m
+2023-02-25T21:43:35.578Z [32minfo[39m: [32mServer listening on port 3000[39m
+2023-02-25T21:43:37.017Z [32minfo[39m: [32mConnected to MongoDB[39m
+2023-02-25T21:50:26.467Z [31merror[39m: [31mTypeError: Cannot read properties of undefined (reading 'VoiceResponse')[39m
+[31m    at handleIncomingCall (C:\Users\Bhatti\Desktop\Freelancing\IVR-Phone-Tree\controllers\callController.js:8:42)[39m
+[31m    at Layer.handle [as handle_request] (C:\Users\Bhatti\Desktop\Freelancing\IVR-Phone-Tree\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (C:\Users\Bhatti\Desktop\Freelancing\IVR-Phone-Tree\node_modules\express\lib\router\route.js:144:13)[39m
+[31m    at Route.dispatch (C:\Users\Bhatti\Desktop\Freelancing\IVR-Phone-Tree\node_modules\express\lib\router\route.js:114:3)[39m
+[31m    at Layer.handle [as handle_request] (C:\Users\Bhatti\Desktop\Freelancing\IVR-Phone-Tree\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at C:\Users\Bhatti\Desktop\Freelancing\IVR-Phone-Tree\node_modules\express\lib\router\index.js:284:15[39m
+[31m    at Function.process_params (C:\Users\Bhatti\Desktop\Freelancing\IVR-Phone-Tree\node_modules\express\lib\router\index.js:346:12)[39m
+[31m    at next (C:\Users\Bhatti\Desktop\Freelancing\IVR-Phone-Tree\node_modules\express\lib\router\index.js:280:10)[39m
+[31m    at Function.handle (C:\Users\Bhatti\Desktop\Freelancing\IVR-Phone-Tree\node_modules\express\lib\router\index.js:175:3)[39m
+[31m    at router (C:\Users\Bhatti\Desktop\Freelancing\IVR-Phone-Tree\node_modules\express\lib\router\index.js:47:12)[39m
+2023-02-25T21:50:34.038Z [31merror[39m: [31mTypeError: Cannot read properties of undefined (reading 'VoiceResponse')[39m
+[31m    at handleIncomingCall (C:\Users\Bhatti\Desktop\Freelancing\IVR-Phone-Tree\controllers\callController.js:8:42)[39m
+[31m    at Layer.handle [as handle_request] (C:\Users\Bhatti\Desktop\Freelancing\IVR-Phone-Tree\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (C:\Users\Bhatti\Desktop\Freelancing\IVR-Phone-Tree\node_modules\express\lib\router\route.js:144:13)[39m
+[31m    at Route.dispatch (C:\Users\Bhatti\Desktop\Freelancing\IVR-Phone-Tree\node_modules\express\lib\router\route.js:114:3)[39m
+[31m    at Layer.handle [as handle_request] (C:\Users\Bhatti\Desktop\Freelancing\IVR-Phone-Tree\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at C:\Users\Bhatti\Desktop\Freelancing\IVR-Phone-Tree\node_modules\express\lib\router\index.js:284:15[39m
+[31m    at Function.process_params (C:\Users\Bhatti\Desktop\Freelancing\IVR-Phone-Tree\node_modules\express\lib\router\index.js:346:12)[39m
+[31m    at next (C:\Users\Bhatti\Desktop\Freelancing\IVR-Phone-Tree\node_modules\express\lib\router\index.js:280:10)[39m
+[31m    at Function.handle (C:\Users\Bhatti\Desktop\Freelancing\IVR-Phone-Tree\node_modules\express\lib\router\index.js:175:3)[39m
+[31m    at router (C:\Users\Bhatti\Desktop\Freelancing\IVR-Phone-Tree\node_modules\express\lib\router\index.js:47:12)[39m
+2023-02-25T21:51:58.276Z [32minfo[39m: [32mServer listening on port 3000[39m
+2023-02-25T21:52:00.435Z [32minfo[39m: [32mConnected to MongoDB[39m
+2023-02-25T21:59:22.928Z [32minfo[39m: [32mServer listening on port 3000[39m
+2023-02-25T21:59:24.320Z [32minfo[39m: [32mConnected to MongoDB[39m
+2023-02-25T22:06:45.516Z [32minfo[39m: [32mServer listening on port 3000[39m
+2023-02-25T22:06:47.362Z [32minfo[39m: [32mConnected to MongoDB[39m
+2023-02-25T22:07:06.541Z [32minfo[39m: [32mServer listening on port 3000[39m
+2023-02-25T22:07:07.488Z [32minfo[39m: [32mConnected to MongoDB[39m
+2023-02-25T22:07:44.758Z [32minfo[39m: [32mServer listening on port 3000[39m
+2023-02-25T22:07:45.682Z [32minfo[39m: [32mConnected to MongoDB[39m
+2023-02-25T22:07:59.022Z [32minfo[39m: [32mServer listening on port 3000[39m
+2023-02-25T22:08:00.300Z [32minfo[39m: [32mConnected to MongoDB[39m
+2023-02-25T22:08:55.427Z [32minfo[39m: [32mServer listening on port 3000[39m
+2023-02-25T22:08:56.334Z [32minfo[39m: [32mConnected to MongoDB[39m
+2023-02-25T22:08:59.491Z [32minfo[39m: [32mServer listening on port 3000[39m
+2023-02-25T22:09:00.757Z [32minfo[39m: [32mConnected to MongoDB[39m
+2023-02-25T22:10:49.761Z [32minfo[39m: [32mServer listening on port 3000[39m
+2023-02-25T22:10:51.419Z [32minfo[39m: [32mConnected to MongoDB[39m
+2023-02-25T22:13:21.899Z [32minfo[39m: [32mServer listening on port 3000[39m
+2023-02-25T22:13:23.215Z [32minfo[39m: [32mConnected to MongoDB[39m
+2023-02-25T22:15:11.184Z [32minfo[39m: [32mServer listening on port 3000[39m
+2023-02-25T22:15:12.677Z [32minfo[39m: [32mConnected to MongoDB[39m
+2023-02-25T22:15:23.278Z [32minfo[39m: [32mServer listening on port 3000[39m
+2023-02-25T22:15:24.211Z [32minfo[39m: [32mConnected to MongoDB[39m
+2023-02-25T22:15:38.249Z [32minfo[39m: [32mServer listening on port 3000[39m
+2023-02-25T22:15:39.169Z [32minfo[39m: [32mConnected to MongoDB[39m
+2023-02-25T22:16:41.956Z [32minfo[39m: [32mServer listening on port 3000[39m
+2023-02-25T22:16:43.354Z [32minfo[39m: [32mConnected to MongoDB[39m
+2023-02-25T22:17:19.018Z [32minfo[39m: [32mServer listening on port 3000[39m
+2023-02-25T22:17:19.955Z [32minfo[39m: [32mConnected to MongoDB[39m
+2023-02-25T22:17:59.187Z [31merror[39m: [31mTypeError: Cannot read properties of undefined (reading 'VoiceResponse')[39m
+[31m    at gatherIncomingCall (C:\Users\Bhatti\Desktop\Freelancing\IVR-Phone-Tree\controllers\callController.js:8:42)[39m
+[31m    at Layer.handle [as handle_request] (C:\Users\Bhatti\Desktop\Freelancing\IVR-Phone-Tree\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (C:\Users\Bhatti\Desktop\Freelancing\IVR-Phone-Tree\node_modules\express\lib\router\route.js:144:13)[39m
+[31m    at Route.dispatch (C:\Users\Bhatti\Desktop\Freelancing\IVR-Phone-Tree\node_modules\express\lib\router\route.js:114:3)[39m
+[31m    at Layer.handle [as handle_request] (C:\Users\Bhatti\Desktop\Freelancing\IVR-Phone-Tree\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at C:\Users\Bhatti\Desktop\Freelancing\IVR-Phone-Tree\node_modules\express\lib\router\index.js:284:15[39m
+[31m    at Function.process_params (C:\Users\Bhatti\Desktop\Freelancing\IVR-Phone-Tree\node_modules\express\lib\router\index.js:346:12)[39m
+[31m    at next (C:\Users\Bhatti\Desktop\Freelancing\IVR-Phone-Tree\node_modules\express\lib\router\index.js:280:10)[39m
+[31m    at Function.handle (C:\Users\Bhatti\Desktop\Freelancing\IVR-Phone-Tree\node_modules\express\lib\router\index.js:175:3)[39m
+[31m    at router (C:\Users\Bhatti\Desktop\Freelancing\IVR-Phone-Tree\node_modules\express\lib\router\index.js:47:12)[39m
+2023-02-25T22:18:05.893Z [31merror[39m: [31mTypeError: Cannot read properties of undefined (reading 'VoiceResponse')[39m
+[31m    at gatherIncomingCall (C:\Users\Bhatti\Desktop\Freelancing\IVR-Phone-Tree\controllers\callController.js:8:42)[39m
+[31m    at Layer.handle [as handle_request] (C:\Users\Bhatti\Desktop\Freelancing\IVR-Phone-Tree\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at next (C:\Users\Bhatti\Desktop\Freelancing\IVR-Phone-Tree\node_modules\express\lib\router\route.js:144:13)[39m
+[31m    at Route.dispatch (C:\Users\Bhatti\Desktop\Freelancing\IVR-Phone-Tree\node_modules\express\lib\router\route.js:114:3)[39m
+[31m    at Layer.handle [as handle_request] (C:\Users\Bhatti\Desktop\Freelancing\IVR-Phone-Tree\node_modules\express\lib\router\layer.js:95:5)[39m
+[31m    at C:\Users\Bhatti\Desktop\Freelancing\IVR-Phone-Tree\node_modules\express\lib\router\index.js:284:15[39m
+[31m    at Function.process_params (C:\Users\Bhatti\Desktop\Freelancing\IVR-Phone-Tree\node_modules\express\lib\router\index.js:346:12)[39m
+[31m    at next (C:\Users\Bhatti\Desktop\Freelancing\IVR-Phone-Tree\node_modules\express\lib\router\index.js:280:10)[39m
+[31m    at Function.handle (C:\Users\Bhatti\Desktop\Freelancing\IVR-Phone-Tree\node_modules\express\lib\router\index.js:175:3)[39m
+[31m    at router (C:\Users\Bhatti\Desktop\Freelancing\IVR-Phone-Tree\node_modules\express\lib\router\index.js:47:12)[39m
+2023-02-25T22:37:45.610Z [32minfo[39m: [32mServer listening on port 3000[39m
+2023-02-25T22:37:47.491Z [32minfo[39m: [32mConnected to MongoDB[39m
+2023-02-25T22:38:12.407Z [32minfo[39m: [32mServer listening on port 3000[39m
+2023-02-25T22:38:13.331Z [32minfo[39m: [32mConnected to MongoDB[39m
+2023-02-25T22:38:22.477Z [32minfo[39m: [32mServer listening on port 3000[39m
+2023-02-25T22:38:23.385Z [32minfo[39m: [32mConnected to MongoDB[39m
