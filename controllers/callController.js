@@ -88,12 +88,13 @@ const addCallLogs = async (req, res, next) => {
       .then(call => {
         data = call
       });
-    let RegisterCallId = new CallLogs({
-      CallId: data.sid,
-      CallStatus: data.status,
-      CallDuration: data.duration,
-      CallFromNumber: data.from,
-      RecordingUrlFile: data.subresourceUris.recordings
+    let RegisterCallId = new Call({
+      sid: data.sid,
+      status: data.status,
+      startTime:data.startTime,
+      endTime:data.endTime,
+      duration: data.duration,
+      voicemail: data.from,
     })
 
     await RegisterCallId.save()

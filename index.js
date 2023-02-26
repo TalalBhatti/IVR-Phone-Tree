@@ -11,7 +11,6 @@ require('dotenv').config();
 const app = express();
 
 // Connect to MongoDB
-console.log("Url",process.env.MONGODB_URI)
 mongoose.connect(process.env.MONGODB_URI, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
