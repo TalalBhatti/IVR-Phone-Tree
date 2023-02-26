@@ -89,3 +89,6 @@
 2023-02-25T22:38:13.331Z [32minfo[39m: [32mConnected to MongoDB[39m
 2023-02-25T22:38:22.477Z [32minfo[39m: [32mServer listening on port 3000[39m
 2023-02-25T22:38:23.385Z [32minfo[39m: [32mConnected to MongoDB[39m
+2023-02-25T22:38:44.010Z [32minfo[39m: [32mServer listening on port 3000[39m
+2023-02-25T22:38:44.973Z [32minfo[39m: [32mConnected to MongoDB[39m
+2023-02-25T22:41:05.045Z [31merror[39m: [31mCall with SID CAa7ab5a8c5b6cf962e86318fec3fe8d1d not found[39m
